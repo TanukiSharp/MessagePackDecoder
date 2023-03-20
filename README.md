@@ -2,6 +2,8 @@
 
 An online MessagePack decoder that works.
 
+You can find a usable version of the application [here](https://tanukisharp.github.io/MessagePackDecoder/).
+
 ## How to use
 
 Just paste text data in the left pane, and get MessagePack decoded value in the (read-only) right pane.
