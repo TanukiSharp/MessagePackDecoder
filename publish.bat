@@ -6,5 +6,6 @@ mkdir .\docs
 
 dotnet publish .\MessagePackDecoder\MessagePackDecoder.csproj -c Release -o .\_temp_
 xcopy /y /e .\_temp_\wwwroot\ .\docs
+copy /b NUL .\docs\.nojekyll
 
 rmdir /s /q .\_temp_
